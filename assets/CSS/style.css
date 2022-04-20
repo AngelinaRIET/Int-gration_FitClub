@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 4rem;
+}
+
+/* HEADER */
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.btn-purple {
+    background-color: rgb(124, 40, 99);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header section {
+    text-align: center;
+    padding: 9rem 0 12.5rem 0;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(124, 40, 99, 0.5), rgba(255, 255, 255, 0.12)),
+        url("/assets/images/fitness.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .burger {
+    display: none;
+}
+
+header nav img {
+    width: 75px;
+    padding-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 1.25rem;
+    margin-right: 1.25rem;
+    list-style: none;
+}
+
+header nav li {
+    padding: 0 1rem;
+}
+
+/* MAIN */
+
+main .fitness:first-of-type {
+    background: linear-gradient(90deg, rgb(0, 0, 0, 0.3) 100%, rgb(0, 0, 0)), url("/assets/images/fitnessman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main .fitness:last-of-type {
+    background: linear-gradient(90deg, rgb(124, 40, 99, 0.6) 100%, rgb(0, 0, 0)), url("/assets/images/fitnesswoman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main .fitness {
+    padding: 15vh 0;
+    margin-top: -5rem;
+}
+
+main .fitness a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: center;
+}
+
+.mainSection article {
+    width: 30%;
+    text-align: center;
+}
+
+main #objectif {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+main #icones1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+main #icones1 img,
+main #icones2 img {
+    width: 50px;
+    padding: 1rem 0;
+}
+
+main #icones1 article {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: calc(100%/4);
+    padding: 2rem 0;
+}
+
+main #icones2 article {
+    padding: 3rem 0;
+}
+
+#crossfit {
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(124, 40, 99, 0.4) 15%, rgba(124, 40, 99, 0.1) 55%, rgb(0 0 0) 40%), url("/assets/images/crossfit.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 8.5vh;
+    color: white;
+}
+
+#crossfit section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#crossfit a {
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#crossfit section {
+    margin-left: 55%;
+    padding-left: 3rem;
+}
+
+#crossfit section p {
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+#crossfit section h2 {
+    margin-left: -4rem;
+}
+
+#icones2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#icones2 article {
+    width: calc(100%/3);
+    text-align: center;
+    padding: 1.9rem 0;
+}
+
+#icones2 article:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main iframe {
+    width: 100%;
+}
+
+/* FOOTER */
+
+/* FOOTER SECTION 1 */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .sectionFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionFooter section img {
+    width: 75px;
+}
+
+footer #contact1 {
+    text-align: right;
+    padding: 2rem 2rem;
+    width: 40%;
+}
+
+footer #contact1 p {
+    margin: 1.5rem 0;
+}
+
+footer #contact1 i {
+    margin: 0 0.5rem;
+}
+
+/* FOOTER SECTION 2 */
+
+footer #contact2 {
+    width: 20%;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 2rem 1rem;
+    color: black;
+    height: 500px;
+    margin-top: -6.25rem;
+    margin-bottom: 3.1rem;
+}
+
+footer form button {
+    margin: auto;
+    color: white;
+}
+
+footer form input {
+    margin: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+}
+
+/* FOOTER SECTION 3 */
+
+footer #contact3 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+footer .blocFooter {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+footer #contact3 i {
+    padding-right: 1rem;
+    color: rgb(124, 40, 99);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.blocFooter section h4:last-of-type {
+    padding-bottom: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 990px) and (min-width:768px) {
+    main .fitness {
+        width: 100%;
+    }
+
+    #crossfit {
+        padding: 2vh;
+    }
+
+    #crossfit a {
+        width: 43%;
+        margin: 2rem 0;
+    }
+
+    #crossfit section p {
+        width: 95%;
+    }
+
+    #icones2 article {
+        width: 50%;
+    }
+
+    #icones2 article:nth-of-type(odd) {
+        background-color: white;
+    }
+
+    #icones2 article:nth-child(3),
+    #icones2 article:nth-child(4n+2) {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header .burger {
+        display: block;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        color: white;
+    }
+
+    .burger::before {
+        content: '\f0c9';
+    }
+    .burger:checked::before {
+            content: '\f00d';
+        }
+    header nav {
+        flex-wrap: wrap;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header .burger:checked+ul {
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(124, 40, 99);
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    .mainSection {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .fitness {
+        width: 85%;
+        padding: 10vh 0;
+        margin-top: 0;
+    }
+
+    main .fitness {
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .mainSection p {
+       margin-bottom: 2rem;
+    }
+
+    .mainSection {
+        margin-top: -3rem;
+    }
+    main #objectif {
+        text-align: center;
+        margin: 3rem 0;
+    }
+    main #objectif p,
+    main #objectif h2{
+        padding: 0 3rem;
+    }
+    main #icones1 article{
+       width: 50%;
+    }
+    main #icones1 {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #crossfit {
+        display: flex;
+        background-image: none;
+        background-color: black;
+        padding: 0;
+    }
+    #crossfit section {
+        margin: auto;
+        padding-left: 3rem;
+    }
+    
+    #crossfit section p {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    
+    #crossfit section h2 {
+        margin-left: -4rem;
+        padding-top: 3rem;
+    }
+    #crossfit section h2 {
+        margin: 0;
+        padding-right: 10rem;
+    }
+
+    #crossfit a {
+        width: 35%;
+        margin-bottom: 3rem;
+    }
+    #icones2 article {
+        width: 100%;
+    }
+    #icones2 article p{
+        padding: 0 3rem;
+    }
+
+    footer #contact1 i,
+    footer #contact1 p,
+    footer #contact1 img {
+       display: none;
+    }
+
+    footer #contact3 i,
+    footer #contact3 p,
+    footer #contact3 h4 {
+       display: none;
+    }
+    footer #contact2 {
+        width: 60%;
+    }
+    footer #contact1,
+    footer #contact3 {
+        width: 20%;
+    }
+
+    footer .contact2 form h2{
+        padding: 1rem 3rem;
+    }
+
+    footer .contact2 form p{
+        padding: 1rem;
+    }
+}
